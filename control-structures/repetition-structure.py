@@ -27,3 +27,11 @@ for y in range(1, 10, 2):
 
 for m in range(1, 5):
     print("*" * m)
+
+
+for i in range(5):
+    print("counting", i)
+    if(i == 3):
+        break
+else:
+    print("Loop ends naturally")
